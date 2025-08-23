@@ -1,0 +1,336 @@
+{\rtf1\ansi\deff1
+{\fonttbl{\f0\fswiss Calibri;}{\f1\froman Times New Roman;}{\f2\fnil\fprq0\fcharset128 Symbol;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;}
+{\stylesheet{\s1 List Paragraph;}}
+{\*\listtable{\list\listid1\listtemplateid1{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}{\listlevel\levelstartat1\levelnfc23\leveljc0\levelfollow0{\leveltext \'01\u61623 ?;}\fi-180\f2}}}
+{\listoverridetable{\listoverride\listid1\listoverridecount0\ls0}}
+\sa150{DQN AI Investing Merged}\par\pard
+\sa150{{\rtf1\ansi\deff0}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b AI-Powered Investing: Using Deep Q-Networks (DQN) for Smarter Trading \b0\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{Leverage reinforcement learning to automate decision-making in trading, portfolio optimization, and market execution. Deep Q-Networks (DQN) combine Q-Learning and deep learning, ideal for complex environments like financial markets.\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b What is DQN? \b0\par}\par\pard
+\sa150{DQN is a type of reinforcement learning algorithm that merges Q-Learning with deep neural networks. It excels in high-dimensional, sequential environments like financial markets, where decisions such as buy, sell, or hold must be made from noisy and dynamic data.\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Key Applications \b0\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Use Case: Algorithmic Trading \b0\par}\par\pard
+\sa150{\bullet What DQN Learns: When to enter or exit trades based on price history, technical indicators (e.g., EMA, MACD), and possibly news sentiment.\par}\par\pard
+\sa150{\bullet Environment: Market data (OHLCV), technical indicators.\par}\par\pard
+\sa150{\bullet Action Space: Buy, Sell, Hold.\par}\par\pard
+\sa150{\bullet Reward: Profit/loss or portfolio value change.\par}\par\pard
+\sa150{\bullet Example: The agent may learn to buy in uptrends and sell during downturns, adjusting behavior as it learns patterns from data.\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Use Case: Portfolio Optimization \b0\par}\par\pard
+\sa150{\bullet What DQN Learns: Rebalancing a portfolio periodically by learning optimal weights for each asset class.\par}\par\pard
+\sa150{\bullet Environment: Market prices, portfolio weights/returns, investor constraints.\par}\par\pard
+\sa150{\bullet Action Space: Adjust allocation percentages.\par}\par\pard
+\sa150{\bullet Reward: Portfolio value increase, adjusted for risk (e.g., Sharpe ratio).\par}\par\pard
+\sa150{\bullet Example: The agent shifts capital toward outperforming sectors and away from volatile or declining ones.\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Use Case: Market Making / Order Execution \b0\par}\par\pard
+\sa150{\bullet What DQN Learns: Optimal order placement to reduce slippage and execution costs.\par}\par\pard
+\sa150{\bullet Environment: Order book, trade history, execution latency.\par}\par\pard
+\sa150{\bullet Action Space: Place/cancel orders, vary order sizes/timings.\par}\par\pard
+\sa150{\bullet Reward: Execution quality, price improvement, or cost savings.\par}\par\pard
+\sa150{\bullet Example: Agent places strategic limit orders within the bid-ask spread and splits large trades to avoid market impact.\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Tools Used \b0\par}\par\pard
+\sa150{\bullet Python\par}\par\pard
+\sa150{\bullet PyTorch (for neural networks)\par}\par\pard
+\sa150{\bullet NumPy and Pandas (for data handling)\par}\par\pard
+\sa150{\bullet Matplotlib (for optional visualization)\par}\par\pard
+\sa150{\par}\par\pard
+\sa150{\b Summary of Learned Behavior \b0\par}\par\pard
+\sa150{\bullet Buys low, sells high.\par}\par\pard
+\sa150{\bullet Avoids excessive trading.\par}\par\pard
+\sa150{\bullet Holds during volatile or uncertain periods to reduce risk.\par}\par\pard
+\sa150{}}\par\pard
+\sa150{{\rtf1\ansi\ansicpg1252\cocoartf2818}\par\pard
+\sa150{\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;}\par\pard
+\sa150{}}\par\pard
+\sa150{{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}}\par\pard
+\sa150{{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}}\par\pard
+\sa150{{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}\par\pard
+\sa150{{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}\par\pard
+\sa150{{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}\par\pard
+\sa150{{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}\par\pard
+\sa150{{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}\par\pard
+\sa150{{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}}\par\pard
+\sa150{{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}}\par\pard
+\sa150{\paperw11900\paperh16840\margl1440\margr1440\vieww15380\viewh15440\viewkind0}\par\pard
+\sa150{\deftab720}\par\pard
+\sa150{\pard\pardeftab720\sa321\partightenfactor0}\par\pard
+\sa150{\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0}\par\pard
+\sa150{AI-empowered investing - DQN Reinforcement Learning for Trading}\par\pard
+\sa150{\f1\b0\fs24 \}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\cf0 Advanced machine learning techniques including deep learning, reinforcement learning, and ensemble methods empower platforms that provide retail investors with access to cutting-edge AI capabilities for investment analysis and portfolio management.\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f0\b \cf0 DQN}\par\pard
+\sa150{\f1\b0  is a}\par\pard
+\sa150{\f0\b reinforcement learning (RL)}\par\pard
+\sa150{\f1\b0  algorithm that combines}\par\pard
+\sa150{\f0\b Q-Learning}\par\pard
+\sa150{\f1\b0  with}\par\pard
+\sa150{\f0\b deep neural networks}\par\pard
+\sa150{\f1\b0 . It\'92s especially useful when the state or environment is complex like in trading.\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\cf0 Platforms like}\par\pard
+\sa150{\f0\b Moolah}\par\pard
+\sa150{\f1\b0 , which is a pioneer for LLM-powered funds and AI-trading, incorporate DQN-RL algorithms into its investment process. \}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f0\b \cf0 \outl0\strokewidth0 \strokec2 Deep Q-Network (DQN)}\par\pard
+\sa150{\f1\b0  is a type of}\par\pard
+\sa150{\f0\b reinforcement learning}\par\pard
+\sa150{\f1\b0  where a trading agent learns}\par\pard
+\sa150{\f0\b how to make decisions}\par\pard
+\sa150{\f1\b0  like}\par\pard
+\sa150{\f0\b buy, sell, or hold}\par\pard
+\sa150{\f1\b0  by interacting with historical market data.\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 The agent sees a}\par\pard
+\sa150{\f0\b snapshot of the market}\par\pard
+\sa150{\f1\b0  (like prices and indicators).\}\par\pard
+\sa150{\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 It picks an}\par\pard
+\sa150{\f0\b action}\par\pard
+\sa150{\f1\b0  (buy, sell, or hold).\}\par\pard
+\sa150{\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 It gets a}\par\pard
+\sa150{\f0\b reward}\par\pard
+\sa150{\f1\b0 , usually profit or loss.\}\par\pard
+\sa150{\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Over time, it}\par\pard
+\sa150{\f0\b learns a strategy}\par\pard
+\sa150{\f1\b0  that maximizes total profit by updating a}\par\pard
+\sa150{\f0\b neural network}\par\pard
+\sa150{\f1\b0  that estimates the best actions in each situation.\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\cf0 \outl0\strokewidth0 \}\par\pard
+\sa150{\pard\pardeftab720\sa280\partightenfactor0}\par\pard
+\sa150{\f0\b\fs28 \cf0 \outl0\strokewidth0 \strokec2 Use Case: Algorithmic trading agents that learn to buy/sell/hold assets to maximize returns.\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls2\ilvl0}\par\pard
+\sa150{\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 What DQN learns}\par\pard
+\sa150{\f1\b0 : When to enter or exit trades based on price history, indicators (e.g. EMA, MACD), and news sentiment.\}\par\pard
+\sa150{\ls2\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Environment}\par\pard
+\sa150{\f1\b0 : Market data (OHLCV, indicators).\}\par\pard
+\sa150{\ls2\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Action Space}\par\pard
+\sa150{\f1\b0 : Buy, Sell, Hold.\}\par\pard
+\sa150{\ls2\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Reward}\par\pard
+\sa150{\f1\b0 : Profit/loss or portfolio value change.\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f0\b \cf0 \strokec2 As an example}\par\pard
+\sa150{\f1\b0 , if the price is going up and momentum is strong, the agent might learn to buy. If the price is falling fast, it might learn to sell or hold to avoid losses. The goal is to automatically learn a trading strategy that makes profitable decisions without being explicitly programmed with trading rules.\}\par\pard
+\sa150{\pard\pardeftab720\partightenfactor0}\par\pard
+\sa150{\cf3 \strokec3 \}\par\pard
+\sa150{\pard\pardeftab720\sa280\partightenfactor0}\par\pard
+\sa150{\f0\b\fs28 \cf0 \strokec2 Use Case: Portfolio Optimization \'97 allocates capital among multiple assets to maximize return and minimize risk.\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls3\ilvl0}\par\pard
+\sa150{\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 What DQN learns}\par\pard
+\sa150{\f1\b0 : Rebalancing a portfolio weekly/monthly using DQN to learn optimal asset weights; learning to increase exposure to trending sectors or reduce allocation to volatile ones; managing ETF or index-based portfolios.\}\par\pard
+\sa150{\ls3\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Environment}\par\pard
+\sa150{\f1\b0 : Market data (OHLCV), portfolio data (weights, returns), investor\'92s risk profile or constraints.\}\par\pard
+\sa150{\ls3\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Action Space}\par\pard
+\sa150{\f1\b0 : Adjust position sizes or allocation percentages for each asset (i.e., portfolio loadings).\}\par\pard
+\sa150{\ls3\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Reward}\par\pard
+\sa150{\f1\b0 : Change in overall portfolio value, possibly adjusted for risk (e.g., Sharpe ratio or drawdown).\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f0\b \cf0 \strokec2 As an example}\par\pard
+\sa150{\f1\b0 , the agent may learn to increase weights in tech stocks during bull runs and shift to bonds or defensive assets during uncertainty. It adapts allocations to maintain optimal diversification and maximize long-term returns.\}\par\pard
+\sa150{\pard\pardeftab720\partightenfactor0}\par\pard
+\sa150{\cf3 \strokec3 \}\par\pard
+\sa150{\pard\pardeftab720\sa280\partightenfactor0}\par\pard
+\sa150{\f0\b\fs28 \cf0 \strokec2 Use Case: Market Making / Order Execution \'97 optimizes order placement and execution strategies to reduce costs and improve trade efficiency.\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls4\ilvl0}\par\pard
+\sa150{\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 What DQN learns}\par\pard
+\sa150{\f1\b0 : Optimize the placement of buy/sell orders to capture spread and reduce slippage. The DQN agent places limit orders at various depths in the order book to maximize profit from the bid-ask spread. It also learns how to split large orders over time to minimize market impact and adverse price movement.\}\par\pard
+\sa150{\ls4\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Environment}\par\pard
+\sa150{\f1\b0 : Real-time order book data, trade history, market depth, execution latency.\}\par\pard
+\sa150{\ls4\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Action Space}\par\pard
+\sa150{\f1\b0 : Place/cancel limit orders at different price levels; select order size; choose timing for execution.\}\par\pard
+\sa150{\ls4\ilvl0}\par\pard
+\sa150{\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{\outl0\strokewidth0 \strokec2 Reward}\par\pard
+\sa150{\f1\b0 : Execution quality \'97 measured by realized spread, price improvement, or cost savings (e.g., minimized slippage or market impact).\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f0\b \cf0 \strokec2 As an example}\par\pard
+\sa150{\f1\b0 , the agent may learn to post a small limit order just inside the spread when volatility is low, or wait before executing a large order if it predicts short-term price dips, reducing execution cost.\}\par\pard
+\sa150{\pard\pardeftab720\sa280\partightenfactor0}\par\pard
+\sa150{\cf0 \outl0\strokewidth0 \}\par\pard
+\sa150{\pard\pardeftab720\sa298\partightenfactor0}\par\pard
+\sa150{\f0\b\fs36 \cf0 Tools Used\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls5\ilvl0}\par\pard
+\sa150{\f2\b0\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{Python}\par\pard
+\sa150{\f1\fs24 \}\par\pard
+\sa150{\ls5\ilvl0}\par\pard
+\sa150{\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{TensorFlow}\par\pard
+\sa150{\f1\fs24  or}\par\pard
+\sa150{\f2\fs26 PyTorch}\par\pard
+\sa150{\f1\fs24  (here:}\par\pard
+\sa150{\f0\b PyTorch}\par\pard
+\sa150{\f1\b0  for simplicity)\}\par\pard
+\sa150{\ls5\ilvl0}\par\pard
+\sa150{\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{NumPy}\par\pard
+\sa150{\f1\fs24  and}\par\pard
+\sa150{\f2\fs26 Pandas}\par\pard
+\sa150{\f1\fs24  for data\}\par\pard
+\sa150{\ls5\ilvl0}\par\pard
+\sa150{\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{Matplotlib}\par\pard
+\sa150{\f1\fs24  for visualization (optional)\}\par\pard
+\sa150{\pard\tx720\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\cf0 \}\par\pard
+\sa150{import pandas as pd\}\par\pard
+\sa150{data = pd.read_csv("AAPL.csv")  # Assume you have AAPL historical data\}\par\pard
+\sa150{prices = data['Close'].values\}\par\pard
+\sa150{import numpy as np\}\par\pard
+\sa150{\}\par\pard
+\sa150{class TradingEnv:\}\par\pard
+\sa150{def __init__(self, prices, window_size=10):\}\par\pard
+\sa150{self.prices = prices\}\par\pard
+\sa150{self.window_size = window_size\}\par\pard
+\sa150{self.reset()\}\par\pard
+\sa150{\}\par\pard
+\sa150{def reset(self):\}\par\pard
+\sa150{self.current_step = self.window_size\}\par\pard
+\sa150{self.inventory = []\}\par\pard
+\sa150{self.total_profit = 0\}\par\pard
+\sa150{return self._get_state()\}\par\pard
+\sa150{\}\par\pard
+\sa150{def _get_state(self):\}\par\pard
+\sa150{return self.prices[self.current_step - self.window_size:self.current_step]\}\par\pard
+\sa150{\}\par\pard
+\sa150{def step(self, action):\}\par\pard
+\sa150{price = self.prices[self.current_step]\}\par\pard
+\sa150{reward = 0\}\par\pard
+\sa150{\}\par\pard
+\sa150{if action == 1:  # Buy\}\par\pard
+\sa150{self.inventory.append(price)\}\par\pard
+\sa150{\}\par\pard
+\sa150{elif action == 2 and len(self.inventory) > 0:  # Sell\}\par\pard
+\sa150{bought_price = self.inventory.pop(0)\}\par\pard
+\sa150{reward = price - bought_price\}\par\pard
+\sa150{self.total_profit += reward\}\par\pard
+\sa150{\}\par\pard
+\sa150{self.current_step += 1\}\par\pard
+\sa150{done = self.current_step >= len(self.prices) - 1\}\par\pard
+\sa150{next_state = self._get_state()\}\par\pard
+\sa150{return next_state, reward, done\}\par\pard
+\sa150{\}\par\pard
+\sa150{import torch\}\par\pard
+\sa150{import torch.nn as nn\}\par\pard
+\sa150{import random\}\par\pard
+\sa150{\}\par\pard
+\sa150{class DQN(nn.Module):\}\par\pard
+\sa150{def __init__(self, input_dim, output_dim):\}\par\pard
+\sa150{super(DQN, self).__init__()\}\par\pard
+\sa150{self.fc1 = nn.Linear(input_dim, 64)\}\par\pard
+\sa150{self.fc2 = nn.Linear(64, 32)\}\par\pard
+\sa150{self.fc3 = nn.Linear(32, output_dim)\}\par\pard
+\sa150{\}\par\pard
+\sa150{def forward(self, x):\}\par\pard
+\sa150{x = torch.relu(self.fc1(x))\}\par\pard
+\sa150{x = torch.relu(self.fc2(x))\}\par\pard
+\sa150{return self.fc3(x)\}\par\pard
+\sa150{\}\par\pard
+\sa150{from collections import deque\}\par\pard
+\sa150{\}\par\pard
+\sa150{env = TradingEnv(prices)\}\par\pard
+\sa150{model = DQN(env.window_size, 3)\}\par\pard
+\sa150{optimizer = torch.optim.Adam(model.parameters(), lr=0.001)\}\par\pard
+\sa150{loss_fn = nn.MSELoss()\}\par\pard
+\sa150{memory = deque(maxlen=1000)\}\par\pard
+\sa150{\}\par\pard
+\sa150{epsilon = 1.0\}\par\pard
+\sa150{gamma = 0.95\}\par\pard
+\sa150{batch_size = 32\}\par\pard
+\sa150{\}\par\pard
+\sa150{for episode in range(50):\}\par\pard
+\sa150{state = torch.FloatTensor(env.reset())\}\par\pard
+\sa150{total_reward = 0\}\par\pard
+\sa150{\}\par\pard
+\sa150{while True:\}\par\pard
+\sa150{if random.random() < epsilon:\}\par\pard
+\sa150{action = random.randint(0, 2)\}\par\pard
+\sa150{else:\}\par\pard
+\sa150{with torch.no_grad():\}\par\pard
+\sa150{q_values = model(state)\}\par\pard
+\sa150{action = torch.argmax(q_values).item()\}\par\pard
+\sa150{\}\par\pard
+\sa150{next_state, reward, done = env.step(action)\}\par\pard
+\sa150{memory.append((state, action, reward, torch.FloatTensor(next_state), done))\}\par\pard
+\sa150{\}\par\pard
+\sa150{if len(memory) > batch_size:\}\par\pard
+\sa150{batch = random.sample(memory, batch_size)\}\par\pard
+\sa150{states, actions, rewards, next_states, dones = zip(*batch)\}\par\pard
+\sa150{\}\par\pard
+\sa150{states = torch.stack(states)\}\par\pard
+\sa150{next_states = torch.stack(next_states)\}\par\pard
+\sa150{actions = torch.tensor(actions)\}\par\pard
+\sa150{rewards = torch.tensor(rewards, dtype=torch.float32)\}\par\pard
+\sa150{dones = torch.tensor(dones, dtype=torch.bool)\}\par\pard
+\sa150{\}\par\pard
+\sa150{q_values = model(states)\}\par\pard
+\sa150{next_q_values = model(next_states)\}\par\pard
+\sa150{targets = q_values.clone()\}\par\pard
+\sa150{\}\par\pard
+\sa150{for i in range(batch_size):\}\par\pard
+\sa150{targets[i, actions[i]] = rewards[i] + (0 if dones[i] else gamma * torch.max(next_q_values[i]))\}\par\pard
+\sa150{\}\par\pard
+\sa150{loss = loss_fn(q_values, targets)\}\par\pard
+\sa150{optimizer.zero_grad()\}\par\pard
+\sa150{loss.backward()\}\par\pard
+\sa150{optimizer.step()\}\par\pard
+\sa150{\}\par\pard
+\sa150{state = torch.FloatTensor(next_state)\}\par\pard
+\sa150{total_reward += reward\}\par\pard
+\sa150{\}\par\pard
+\sa150{if done:\}\par\pard
+\sa150{break\}\par\pard
+\sa150{\}\par\pard
+\sa150{epsilon = max(0.01, epsilon * 0.995)\}\par\pard
+\sa150{print(f"Episode \{episode\} - Total Profit: \{env.total_profit:.2f\}")\}\par\pard
+\sa150{\}\par\pard
+\sa150{\pard\pardeftab720\sa298\partightenfactor0}\par\pard
+\sa150{\f0\b\fs36 \cf0 Result\}\par\pard
+\sa150{\pard\pardeftab720\sa240\partightenfactor0}\par\pard
+\sa150{\f1\b0\fs24 \cf0 By the end of training, the agent learns:\}\par\pard
+\sa150{\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0}\par\pard
+\sa150{\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{To buy low and sell high.\}\par\pard
+\sa150{\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{To avoid over-trading.\}\par\pard
+\sa150{\ls6\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0}\par\pard
+\sa150{That holding during bad times is safer than wrong entries.\}\par\pard
+\sa150{}}\par\pard
+}
