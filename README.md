@@ -79,6 +79,23 @@ Content published on Moolah Capital a/c @ Medium
 | Reading the Blockchain | [set-03/Reading the Blockchain.docx](./set-03/Reading%20the%20Blockchain.docx) |
 | The Altcoin Hunter | [set-03/The Altcoin Hunter.docx](./set-03/The%20Altcoin%20Hunter.docx) |
 
+### Set 04 - Philosophical Analysis & Thought Leadership
+
+| File Name | Link |
+|-----------|------|
+| Bauman's Favorite Crypto Funds | [set-04/Bauman.docx](./set-04/Bauman.docx) |
+| Derrida's Favorite Crypto Funds | [set-04/Derrida.docx](./set-04/Derrida.docx) |
+| Durkheim's Favorite Crypto Funds | [set-04/Durkheim.docx](./set-04/Durkheim.docx) |
+| Freud's Favorite Crypto Funds | [set-04/Freud.docx](./set-04/Freud.docx) |
+| Fromm's Favorite Crypto Funds | [set-04/Fromm.docx](./set-04/Fromm.docx) |
+| Gramsci's Favorite Crypto Funds | [set-04/Gramsci.docx](./set-04/Gramsci.docx) |
+| Gramsci's Favorite Crypto Funds (Bullets) | [set-04/Gramsci bullets.docx](./set-04/Gramsci%20bullets.docx) |
+| Jung's Favorite Crypto Funds | [set-04/Jung.docx](./set-04/Jung.docx) |
+| Klein's Favorite Crypto Funds | [set-04/Klein.docx](./set-04/Klein.docx) |
+| Lacan's Favorite Crypto Funds | [set-04/Lacan.docx](./set-04/Lacan.docx) |
+| Thinkers Summary | [set-04/Thinkers Summary.docx](./set-04/Thinkers%20Summary.docx) |
+| Weber's Favorite Crypto Funds | [set-04/Weber.docx](./set-04/Weber.docx) |
+
 ### Other Resources
 
 | File Name | Link |
@@ -90,3 +107,22 @@ Content published on Moolah Capital a/c @ Medium
 | Generating Investment Ideas with AI | [other/generating_investment_ideas_with_AI](./other/generating_investment_ideas_with_AI) |
 | Paper vs Real Money Investing | [other/paper_vs_real_money_investing](./other/paper_vs_real_money_investing) |
 | Power of Compounding | [other/power_of_compounding](./other/power_of_compounding) |
+
+## Content Overview
+
+This repository contains **79 content pieces** across four main categories:
+
+- **Set 01** (33 files): Core investment strategies, AI applications in finance, and practical crypto guides
+- **Set 02** (18 files): Behavioral finance concepts and psychological aspects of investing
+- **Set 03** (9 files): Market analysis, investment strategies for different amounts ($500-$100k), and technical guides
+- **Set 04** (12 files): Philosophical analysis applying famous thinkers' theories to cryptocurrency investing
+- **Other** (7 files): Additional resources including Bayesian filters and specialized investment topics
+
+### Content Types
+
+- **Practical Guides**: Step-by-step investment strategies and how-to content
+- **Educational Content**: Market analysis, technical explanations, and educational pieces
+- **Thought Leadership**: Philosophical perspectives and academic analysis of crypto markets
+- **AI & Technology**: Applications of artificial intelligence in investment strategies
+
+All content is designed for publication on Medium through Moolah Capital's account, combining practical investment advice with intellectual depth and innovative perspectives on cryptocurrency and traditional finance.
