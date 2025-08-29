@@ -83,19 +83,18 @@ Content published on Moolah Capital a/c @ Medium
 
 | File Name | Link |
 |-----------|------|
-| Bauman's Favorite Crypto Funds | [set-04/Bauman.docx](./set-04/Bauman.docx) |
-| Derrida's Favorite Crypto Funds | [set-04/Derrida.docx](./set-04/Derrida.docx) |
-| Durkheim's Favorite Crypto Funds | [set-04/Durkheim.docx](./set-04/Durkheim.docx) |
-| Freud's Favorite Crypto Funds | [set-04/Freud.docx](./set-04/Freud.docx) |
-| Fromm's Favorite Crypto Funds | [set-04/Fromm.docx](./set-04/Fromm.docx) |
-| Gramsci's Favorite Crypto Funds | [set-04/Gramsci.docx](./set-04/Gramsci.docx) |
-| Gramsci's Favorite Crypto Funds (Bullets) | [set-04/Gramsci bullets.docx](./set-04/Gramsci%20bullets.docx) |
-| Jung's Favorite Crypto Funds | [set-04/Jung.docx](./set-04/Jung.docx) |
-| Klein's Favorite Crypto Funds | [set-04/Klein.docx](./set-04/Klein.docx) |
-| Lacan's Favorite Crypto Funds | [set-04/Lacan.docx](./set-04/Lacan.docx) |
+| Baumans Favorite Crypto Funds | [set-04/Bauman.docx](./set-04/Bauman.docx) |
+| Derridas Favorite Crypto Funds | [set-04/Derrida.docx](./set-04/Derrida.docx) |
+| Durkheims Favorite Crypto Funds | [set-04/Durkheim.docx](./set-04/Durkheim.docx) |
+| Freuds Favorite Crypto Funds | [set-04/Freud.docx](./set-04/Freud.docx) |
+| Fromms Favorite Crypto Funds | [set-04/Fromm.docx](./set-04/Fromm.docx) |
+| Gramscis Favorite Crypto Funds | [set-04/Gramsci.docx](./set-04/Gramsci.docx) |
+| Gramscis Favorite Crypto Funds (Bullets) | [set-04/Gramsci bullets.docx](./set-04/Gramsci%20bullets.docx) |
+| Jungs Favorite Crypto Funds | [set-04/Jung.docx](./set-04/Jung.docx) |
+| Kleins Favorite Crypto Funds | [set-04/Klein.docx](./set-04/Klein.docx) |
+| Lacans Favorite Crypto Funds | [set-04/Lacan.docx](./set-04/Lacan.docx) |
+| Webers Favorite Crypto Funds | [set-04/Weber.docx](./set-04/Weber.docx) |
 | Thinkers Summary | [set-04/Thinkers Summary.docx](./set-04/Thinkers%20Summary.docx) |
-| Weber's Favorite Crypto Funds | [set-04/Weber.docx](./set-04/Weber.docx) |
-
 ### Set 05 - Regulatory & Market Evolution
 
 | File Name | Link |
