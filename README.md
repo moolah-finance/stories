@@ -96,6 +96,31 @@ Content published on Moolah Capital a/c @ Medium
 | Thinkers Summary | [set-04/Thinkers Summary.docx](./set-04/Thinkers%20Summary.docx) |
 | Weber's Favorite Crypto Funds | [set-04/Weber.docx](./set-04/Weber.docx) |
 
+### Set 05 - Regulatory & Market Evolution
+
+| File Name | Link |
+|-----------|------|
+| The GENIUS Act Explained | [set-05/The GENIUS Act Explained.docx](./set-05/The%20GENIUS%20Act%20Explained.docx) |
+| Bitcoin ETFs vs Direct Holdings | [set-05/Bitcoin ETFs vs Direct Holdings.docx](./set-05/Bitcoin%20ETFs%20vs%20Direct%20Holdings.docx) |
+| Global Crypto Regulation Roadmap | [set-05/Global Crypto Regulation Roadmap.docx](./set-05/Global%20Crypto%20Regulation%20Roadmap.docx) |
+| Institutional Crypto Adoption | [set-05/Institutional Crypto Adoption.docx](./set-05/Institutional%20Crypto%20Adoption.docx) |
+
+### Set 06 - Emerging Technologies & Use Cases
+
+| File Name | Link |
+|-----------|------|
+| Real-World Asset Tokenization | [set-06/Real-World Asset Tokenization.docx](./set-06/Real-World%20Asset%20Tokenization.docx) |
+| AI Agents in Crypto | [set-06/AI Agents in Crypto.docx](./set-06/AI%20Agents%20in%20Crypto.docx) |
+| Layer 2 Solutions | [set-06/Layer 2 Solutions.docx](./set-06/Layer%202%20Solutions.docx) |
+
+### Set 07 - Advanced Strategies & Risk Management
+
+| File Name | Link |
+|-----------|------|
+| Crypto Yield Strategies | [set-07/Crypto Yield Strategies.docx](./set-07/Crypto%20Yield%20Strategies.docx) |
+| Black Swan Crypto Events | [set-07/Black Swan Crypto Events.docx](./set-07/Black%20Swan%20Crypto%20Events.docx) |
+| The Crypto Inheritance Problem | [set-07/The Crypto Inheritance Problem.docx](./set-07/The%20Crypto%20Inheritance%20Problem.docx) |
+
 ### Other Resources
 
 | File Name | Link |
@@ -110,13 +135,21 @@ Content published on Moolah Capital a/c @ Medium
 
 ## Content Overview
 
-This repository contains **79 content pieces** across four main categories:
+This repository contains **89 content pieces** across seven main categories:
+
+### **Existing Content (79 files)**
 
 - **Set 01** (33 files): Core investment strategies, AI applications in finance, and practical crypto guides
 - **Set 02** (18 files): Behavioral finance concepts and psychological aspects of investing
 - **Set 03** (9 files): Market analysis, investment strategies for different amounts ($500-$100k), and technical guides
 - **Set 04** (12 files): Philosophical analysis applying famous thinkers' theories to cryptocurrency investing
 - **Other** (7 files): Additional resources including Bayesian filters and specialized investment topics
+
+### **Planned Content (10 files)**
+
+- **Set 05** (4 files): Regulatory updates and market evolution including GENIUS Act analysis and ETF comparisons
+- **Set 06** (3 files): Emerging technologies covering RWA tokenization, AI agents, and Layer 2 solutions
+- **Set 07** (3 files): Advanced strategies and risk management including yield optimization and estate planning
 
 ### Content Types
 
@@ -126,3 +159,16 @@ This repository contains **79 content pieces** across four main categories:
 - **AI & Technology**: Applications of artificial intelligence in investment strategies
 
 All content is designed for publication on Medium through Moolah Capital's account, combining practical investment advice with intellectual depth and innovative perspectives on cryptocurrency and traditional finance.
+
+## Content Roadmap
+
+### **Phase 1: Foundation (Complete)**
+
+Sets 01-04 and Other resources provide comprehensive coverage of core investment principles, behavioral finance, market analysis, and philosophical perspectives.
+
+### **Phase 2: Market Evolution (Planned)**
+
+Sets 05-07 will address emerging trends, regulatory developments, and advanced strategies to position Moolah Capital at the forefront of crypto investment education.
+
+**Target Completion:** Q2 2025
+**Strategic Focus:** Regulatory compliance, emerging technologies, and sophisticated risk management
